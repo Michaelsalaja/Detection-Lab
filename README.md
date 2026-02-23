@@ -93,10 +93,10 @@ Step 1
  In the address bar, I typed in https://www.abuseipdb.com/ and verified the captcha
  
 <img width="468" height="241" alt="image" src="https://github.com/user-attachments/assets/f0402212-426d-4183-b97a-6e69f16769d6" />
-                                                          Figure 10: Homepage
+                                                          Figure 10.1: Homepage
 
 <img width="506" height="261" alt="image" src="https://github.com/user-attachments/assets/74310077-09a9-42cb-9118-b6a72c9a3547" />
-                                                          Figure 10.1: Homepage
+                                                          Figure 10.2: Homepage
 
 <img width="592" height="306" alt="image" src="https://github.com/user-attachments/assets/175bd991-f86c-49cc-a7d3-ff4079935494" />
                                                           Figure 11: The AbuseIPDB Search Field
@@ -148,7 +148,7 @@ Now, I am equipped with the knowledge and skills to review IoC and threat intell
 Malicious URLs can be obtained from urlhaus.abuse.ch/ for further investigation and analysis. The database contains dozens for malicious URLs for testing purpose.
 
 <img width="398" height="205" alt="image" src="https://github.com/user-attachments/assets/aa6f1696-383c-4511-9b05-c5fb5bb3ce80" />
-                                                       Figure 13: Returned Results
+                                                       Figure 14: Returned Results
                                                        
 
 ##Upcoming Additional Tasks:
