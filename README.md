@@ -130,7 +130,7 @@ Step 3
 
 The returned results showed several IP addresses associated with Hostname. The email reputation is rated poor.
 
-##Results
+## Results
 
 I have learned the following:
 
