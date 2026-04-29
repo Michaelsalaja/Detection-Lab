@@ -139,10 +139,6 @@ I have learned the following:
 - 	Assessed an IP address through AbuseIPDB to evaluate its reputation, number of abuse reports, categories of abuse, and origin.
  	Investigated a domain using Cisco Talos Intelligence to examine reputation score, web category, related IPs, historical data, and security alerts.
 
-##Lab Summary
-
-Now, I am equipped with the knowledge and skills to review IoC and threat intelligence sources through this project.
-
 ##Further Research
 
 Malicious URLs can be obtained from urlhaus.abuse.ch/ for further investigation and analysis. The database contains dozens for malicious URLs for testing purpose.
