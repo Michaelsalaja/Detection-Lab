@@ -4,15 +4,6 @@
 
 The Detection Lab project was geared towards showcasing my Security Operations skills by detecting IoCs and reviewing threat intelligence sources in my home Lab. Analyzing the IoCs with the exploration of publicly available threat intelligence sources will enable me as a Security Analyst to rapidly evaluate potential threats, understand their context, hunt for potential compromise, and initiate effective response measures.
 
-### Skills Learned
-
-I have learned the following:
-
- -	Detected and reviewed IoC as file hash, ip address, and domain name.
- -	Reviewed a file hash using VirusTotal, to determine file type, size, detection results, and associated malware family. The use of MalShare was unsuccessful due to an indefinite suspension of the platform after losing their host provider.
- -	Assessed an IP address through AbuseIPDB to evaluate its reputation, number of abuse reports, categories of abuse, and origin.
- -  Investigated a domain using Cisco Talos Intelligence to examine reputation score, web category, related IPs, historical data, and security alerts.
-
 ### Tools Used
 
 To demonstrate the steps taken for the experiment in my home lab, I utilized the following free tools.
@@ -148,7 +139,7 @@ The returned results showed several IP addresses associated with Hostname. The e
 
 ## Results
 
-I have learned the following:
+### Skills learned
 
 - 	Detected and reviewed IoC as file hash, ip address, and domain name.
 - 	Reviewed a file hash using VirusTotal, to determine file type, size, detection results, and associated malware family. The use of MalShare was unsuccessful due to an indefinite suspension of the platform after losing their host provider.
