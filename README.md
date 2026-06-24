@@ -41,6 +41,7 @@ EICAR
 - 	This helps Antivirus engines to demonstrate their ability to recognize signature-based malwares and neutralize their threats.
 
 <img width="511" height="85" alt="image" src="https://github.com/user-attachments/assets/0e050ed0-9155-41d9-ad2a-089948a173f6" />
+
                                                             Figure 1: Code Insights
 
 Step 2
@@ -48,16 +49,21 @@ Step 2
 Given the output below in the details section, 66 out of 68 security vendors flagged EICAR as malicious although, it is a virus test file.
 
    <img width="468" height="288" alt="image" src="https://github.com/user-attachments/assets/beb2c35f-e68a-4086-ac13-a9d022f6f2ef" />
+   
                                                             Figure 2: EICAR Virus
                                                              
 <img width="527" height="265" alt="image" src="https://github.com/user-attachments/assets/b8dbfe32-3d58-436b-9be2-f13229e7cc32" />
+
                                                             Figure 3: EICAR Virus     
                                                                                                                                       
-  <img width="527" height="265" alt="image" src="https://github.com/user-attachments/assets/337bc247-3174-41fd-bb04-9f50499563f7" />                                                                                      Figure 4: EICAR Virus           
+  <img width="527" height="265" alt="image" src="https://github.com/user-attachments/assets/337bc247-3174-41fd-bb04-9f50499563f7" />      
+  
+                                                            Figure 4: EICAR Virus           
 
  -	I analyzed the test string to know their verdict, reputation scores, what various antivirus engines who are designed to recognize EICAR perceive the EICAR virus to be, including the comments from community to provide me with additional contacts for my investigation.
                                                            
 <img width="515" height="338" alt="image" src="https://github.com/user-attachments/assets/1f581a71-a685-4764-ba9e-08986bded3f0" />
+
                                                          Figure 5: Details Section
                                                           
 - 	In the details section, the history, properties, and the signature names of the EICAR virus are contextualized. This text string was first detected by the offensive security vendors on June 14, 2012. The MD5 hash, SHA-1, SHA-256 sum are depicted as properties of the powershell file. In exceptions of SHA-256, MD5 and SHA-1 are weak algorithm s that can allow collision. Weak algorithms like MD5 and SHA-1 constitute cryptographic vulnerabilities, allowing collision attacks, reducing password security. Notable real-world examples are 
@@ -65,22 +71,27 @@ Given the output below in the details section, 66 out of 68 security vendors fla
 	KRACK (WPA2) – allowed Wi-Fi traffic interception
 
 <img width="548" height="281" alt="image" src="https://github.com/user-attachments/assets/7bff69e3-1a74-4af1-9be2-492373d3e995" />
+ 
                                                            Figure 6.1: Relations Sections           
                                        
 <img width="468" height="295" alt="image" src="https://github.com/user-attachments/assets/1be7ed73-65f4-4881-9c61-0535e64e51a6" />
+  
                                                            Figure 6.2: Relations Sections
 
 - 	The Relations Section shows us various kinds of Domains that were contacted by the EICAR virus, the IP addresses that came in contact with the “Dummy Virus,” including Execution parents, and Dropped Files These provide us additional context for investigating this file hash file.
                                                
   	<img width="564" height="337" alt="image" src="https://github.com/user-attachments/assets/ec5475a0-7d81-49aa-9f9b-a8586f61c53a" />
-                                                         Figure 7: Behavior Section
+
+  	                                                      Figure 7: Behavior Section
 
   	<img width="521" height="473" alt="image" src="https://github.com/user-attachments/assets/84cf439c-74c4-4361-9941-071ad472a2a9" />
-                                                          Figure 8: MITRE ATT&CK
+
+  	                                                      Figure 8: MITRE ATT&CK
 
 The Behavior Section provides us with MITRE Attack tactics and techniques in form of signatures, Intrusion Detections Systems (IDS) Rules, SIGMA Rules, Dropped Files, Network communications.
 
 <img width="509" height="262" alt="image" src="https://github.com/user-attachments/assets/d33bdb3e-6591-4b54-9593-9dd2549666d4" />
+  
                                                           Figure 9: Community Section
 
 
@@ -93,12 +104,15 @@ Step 1
  In the address bar, I typed in https://www.abuseipdb.com/ and verified the captcha
  
 <img width="468" height="241" alt="image" src="https://github.com/user-attachments/assets/f0402212-426d-4183-b97a-6e69f16769d6" />
+ 
                                                           Figure 10.1: Homepage
 
 <img width="506" height="261" alt="image" src="https://github.com/user-attachments/assets/74310077-09a9-42cb-9118-b6a72c9a3547" />
+  
                                                           Figure 10.2: Homepage
 
 <img width="592" height="306" alt="image" src="https://github.com/user-attachments/assets/175bd991-f86c-49cc-a7d3-ff4079935494" />
+  
                                                           Figure 11: The AbuseIPDB Search Field
 
 
@@ -120,12 +134,14 @@ Step 2
  	In the address bar, I typed in https://talosintelligence.com/ 
 
 <img width="564" height="291" alt="image" src="https://github.com/user-attachments/assets/aff3202a-f062-4d5c-8a06-57df8b126490" />
+  
                                                          Figure 12: Homepage 
 
 Step 3
 
  	In the search field, I entered a suspicious domain as www.example.com and pressed Enter
 <img width="514" height="265" alt="image" src="https://github.com/user-attachments/assets/f275832e-0f99-412f-bb74-af303eca9fa6" />
+   
                                                         Figure 13: Returned Results
 
 The returned results showed several IP addresses associated with Hostname. The email reputation is rated poor.
@@ -144,6 +160,7 @@ I have learned the following:
 Malicious URLs can be obtained from urlhaus.abuse.ch/ for further investigation and analysis. The database contains dozens for malicious URLs for testing purpose.
 
 <img width="398" height="205" alt="image" src="https://github.com/user-attachments/assets/aa6f1696-383c-4511-9b05-c5fb5bb3ce80" />
+   
                                                        Figure 14: Returned Results
                                                        
 
